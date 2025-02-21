@@ -1,0 +1,79 @@
+/* Global Styles */
+.projectsPage {
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+.spaceNav {
+  min-height: 10vh !important;
+}
+
+.containerProjects {
+  min-height: 75vh !important;
+  text-align: justify;
+}
+
+.titleProjectPage {
+  color: #ff6a6a;
+}
+
+.line {
+  height: 2px;
+  background-color: #836fff;
+  border: none;
+}
+
+.cardProject {
+  border: 2px solid #ffffff;
+  background-color: #000000;
+  height: 150pt;
+}
+
+.titleProjects {
+  font-size: 20px;
+  color: #ff6a6a;
+}
+
+.descriptionProject {
+  font-size: 15px;
+}
+
+.footerProject {
+  font-size: 15px;
+}
+
+.labelFooter {
+  color: #ff6a6a;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+}
+
+@media (max-width: 834px) {
+  .titleProjects {
+    font-size: 15px;
+  }
+
+  .descriptionProject {
+    font-size: 12px;
+  }
+
+  .footerProject {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .titleProjects {
+    font-size: 13px;
+  }
+
+  .descriptionProject {
+    font-size: 10px;
+  }
+
+  .footerProject {
+    font-size: 10px;
+  }
+}

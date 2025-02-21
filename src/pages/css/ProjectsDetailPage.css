@@ -1,0 +1,87 @@
+/* Global Styles */
+.projectsPage {
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+.spaceNav {
+  min-height: 10vh !important;
+}
+
+.containerProjects {
+  min-height: 75vh !important;
+  text-align: justify;
+}
+
+.btnBack {
+  color: #ff6a6a;
+  font-size: 30px;
+}
+.btnBack:hover {
+  color: #836fff;
+  font-size: 30px;
+}
+
+.titleProjectDetailPage {
+  color: #ff6a6a;
+}
+
+.line {
+  height: 2px;
+  background-color: #836fff;
+  border: none;
+}
+
+.carouselImage {
+  height: 300pt;
+}
+
+.descriptionProjectDetail {
+  font-size: 20px;
+}
+
+.footerProjectDetail {
+  font-size: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+}
+
+@media (max-width: 834px) {
+  .titleProjects {
+    font-size: 15px;
+  }
+
+  .descriptionProject {
+    font-size: 12px;
+  }
+
+  .footerProject {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btnBack {
+    color: #ff6a6a;
+    font-size: 25px;
+  }
+
+  .titleProjectDetailPage {
+    color: #ff6a6a;
+    font-size: 15px;
+  }
+
+  .carouselImage {
+    height: 150pt;
+  }
+
+  .descriptionProjectDetail {
+    font-size: 13px;
+  }
+
+  .footerProjectDetail {
+    font-size: 13px;
+  }
+}

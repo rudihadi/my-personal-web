@@ -1,0 +1,27 @@
+/* Global Styles */
+.containerFooter {
+  max-height: 15vh !important;
+}
+
+.sizeFooter {
+  font-size: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .sizeFooter {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 834px) {
+  .sizeFooter {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sizeFooter {
+    font-size: 15px;
+  }
+}
