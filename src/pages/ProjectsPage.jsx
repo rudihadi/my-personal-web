@@ -50,9 +50,9 @@ const ProjectsPage = () => {
               <div className="col-6 pb-2">
                 <div class="card cardProject text-white">
                   <div className="card-header fw-bold">
-                    <Link to={`/project/`} className="nav-link titleProjects">
+                    <a href="https://github.com/rudihadi/my-personal-web" className="nav-link titleProjects" target="_blank">
                       My Personal Web
-                    </Link>
+                    </a>
                   </div>
                   <div class="card-body descriptionProject">My Personal Website</div>
                   <div className="card-footer footerProject"></div>
